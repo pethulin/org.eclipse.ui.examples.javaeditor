@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Built-By: e4Build
+Bundle-SymbolicName: org.eclipse.ui.examples.javaeditor; singleton:=tr
+ ue
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/platfo
+ rm/eclipse.platform.text.git;path="org.eclipse.ui.examples.javaeditor
+ ";tag="I20130312-2000";commitId=3d4e3dbe167e3b75bf44aab5b252c8b4670a1
+ fca
+Bundle-Activator: org.eclipse.ui.examples.javaeditor.JavaEditorExample
+ Plugin
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.jface.text,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.views,
+ org.eclipse.jdt.ui;bundle-version="3.10.0"
+Bundle-Version: 3.1.300.v20130225-1821
+Export-Package: org.eclipse.ui.examples.javaeditor,org.eclipse.ui.exam
+ ples.javaeditor.java,org.eclipse.ui.examples.javaeditor.javadoc,org.e
+ clipse.ui.examples.javaeditor.util,org.eclipse.ui.examples.templateed
+ itor.editors,org.eclipse.ui.examples.templateeditor.preferences,org.e
+ clipse.ui.examples.templateeditor.template
+Build-Jdk: 1.7.0_11
+Bundle-ClassPath: javaeditorexample.jar,templateeditorexample.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: icons/obj16/java.gif
+SHA1-Digest: o6kjkh/O7xUHCQ2PuixhpjGld90=
+
+Name: icons/template.gif
+SHA1-Digest: K39DWhLktJvVDGoDDF9+I/glmCI=
+
+Name: javaeditorexample.jar
+SHA1-Digest: 8VFej1agP66YZB9BOGoeAedP6ks=
+
+Name: doc-html/ui_templateeditor_ex.html
+SHA1-Digest: tj/hhjCbq4pLBu1s79EaneRf30s=
+
+Name: about.html
+SHA1-Digest: ejOZra0kypGLQQ2bJtGTX+LI8tU=
+
+Name: plugin.properties
+SHA1-Digest: EwwHoiGnzLf/fWe0/ZRBHLdA8Go=
+
+Name: templateeditorexample.jar
+SHA1-Digest: X7N58gOug2nxVHiY1yRd3x+yvkk=
+
+Name: templates/ant.properties
+SHA1-Digest: JUXsOcM30qXstiM/5sbr3+Of0jE=
+
+Name: icons/resolver.gif
+SHA1-Digest: AFju2Q2+1Vh+Fu1wE08m60Jwc0g=
+
+Name: doc-html/ui_javaeditor_ex.html
+SHA1-Digest: 0wXEZWH7iwSrTyB01DSKB4zceOs=
+
+Name: icons/sample.gif
+SHA1-Digest: AFju2Q2+1Vh+Fu1wE08m60Jwc0g=
+
+Name: templates/ant.xml
+SHA1-Digest: wzyXADxlapcqGuKwZn6XL4FiXQg=
+
+Name: plugin.xml
+SHA1-Digest: HUidkM/StOF2L0sqUmvbgtuscyg=
+
